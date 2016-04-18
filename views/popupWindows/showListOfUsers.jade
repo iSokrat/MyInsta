@@ -1,0 +1,14 @@
+//- require /bootstrap/js/modal.js
+//- require jQuery
+#showListOfUsersWindow.modal.fade(tabindex='-1', role='dialog', aria-labelledby='showUsersLabel')
+    .modal-dialog(role='document')
+        .modal-content
+            .modal-header
+                button.close.closeModal(type='button', data-dismiss='modal', aria-label='Close')
+                    span(aria-hidden='true') &times;
+                h4.modal-title.titleForListOfUsers Пользователи
+            .modal-body
+                ul.list-group.listOfUsers
+                //Место для отображения
+            .modal-footer
+                button.btn.btn-default.closeModal(type='button', data-dismiss='modal') Закрыть

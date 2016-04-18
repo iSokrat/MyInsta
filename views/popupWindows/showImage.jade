@@ -1,0 +1,15 @@
+//- require /bootstrap/js/modal.js
+//- require jQuery
+#showImageWindow.modal.fade(tabindex='-1', role='dialog', aria-labelledby='showImageLabel')
+    .modal-dialog.modal-lg(role='document')
+        .modal-content
+            .modal-header
+                button.close(type='button', data-dismiss='modal', aria-label='Close')
+                    span(aria-hidden='true') ×
+                h4#showImageLabel.modal-title Какое-то изображение:)
+            .modal-body
+                  -var   imgWidth = 600, imgHeight = 600
+                  .row
+                     .col-lg-10.col-md-10.col-sm-10
+                     img.imageForShowImageWindow.img-responsive.center-block(width=imgWidth,height=imgHeight,alt="Image")
+script(type="text/javascript",src="/javascripts/showImageWindow.js")

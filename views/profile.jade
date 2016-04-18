@@ -1,0 +1,104 @@
+doctype html
+html
+    head
+        meta(charset='UTF-8')
+        link(rel='stylesheet', href='/bootstrap/dist/css/bootstrap.min.css')
+        link(rel='stylesheet', href='/css/user.css')
+        link(rel='stylesheet', href='/css/navbar.css')
+        link(href='/opensans-light/fonts.css', type='text/css', rel='stylesheet')
+        link(rel="stylesheet",type="text/css", href="/css/fonts/opensans-regular/fonts.css")
+        script(type="text/javascript",src='/bootstrap/dist/js/bootstrap.min.js')
+        script(type="text/javascript",src="/jquery/dist/jquery.min.js")
+        script(type="text/javascript",src='/bootstrap/js/collapse.js')
+        script(type="text/javascript",src='/bootstrap/js/dropdown.js')
+        script(type="text/javascript",src='/bootstrap/js/modal.js')
+        - var isAuthorizedUser = User
+        - var pathToDefaultAvatar = pathToDefaultAvatar;
+        - var initialsOfUser = ""
+        if (isAuthorizedUser)
+            -initialsOfUser= (User.name)+ " " +User.surname;
+            title= initialsOfUser + ' (@' + User.username + ')'
+        else
+            title= 'Oops!'
+    body
+        if (!isAuthorizedUser)
+            a(href="/login") Profile is not allowed. Login.
+        else
+            include topNavbar
+        .container
+            .row
+                .col-lg-4.col-md-4.col-sm-4
+                    img#avatarInProfile.img-circle.center-block(
+                                                                width='150',
+                                                                height='150',
+                                                                src=(!User.pathToAvatar)?PathToDefaultAvatar
+                                                                                        :User.pathToAvatar
+                                                                alt='Username')
+                .col-lg-8.col-md-8.col-sm-8
+                    .row
+                        .col-lg-3.col-md-3.col-sm-3
+                            h2.text-center= User.username
+                        .col-lg-6.col-md-6.col-sm-6
+                            //-        ОТОБРАЖЕНИЕ КНОПОК ПОДПИСОК
+                            //----------------------------------------------
+                            if (User.username===AutorizedUser.username)
+                                .editProfileButton.btn.btn-default.center-block.vertical-block-align
+                                    strong.text-uppercase  Редактировать профиль
+                            else if (ReqUserIsExistInSubscribtionsOfAutorizedUser)
+                                .subscribtionButton.btn.btn-success.center-block.vertical-block-align
+                                    strong.text-uppercase  Подпиcка оформлена
+                            else
+                                .subscribToButton.btn.btn-default.center-block.vertical-block-align
+                                    strong.text-uppercase  Подпиcаться
+                            //----------------------------------------------
+                        .col-lg-3.col-md-3.col-sm-3
+                            span.glyphicon.glyphicon-option-horizontal.text-large.vertical-block-align(aria-label='true')
+                    .row
+                        .col-lg-3.col-md-3.col-sm-3.col-xs-3
+                            h3.text-center
+                                strong= initialsOfUser
+                    .row
+                        .col-lg-3.col-md-3.col-sm-3
+                            h4.text-center
+                                strong= UserImages.length
+                                |  публикации
+                        .col-lg-3.col-md-3.col-sm-3
+                            a.showFollowersButton(href='#',data-toggle="modal",data-target="#showListOfUsersWindow")
+                                h4.text-center
+                                    strong= CountOfFollowersForReqUser
+                                    |  подписчиков
+                        .col-lg-3.col-md-3.col-sm-3
+                            a.showFollowingButton(href='#',data-toggle="modal",data-target="#showListOfUsersWindow")
+                                h4.text-center
+                                    | Подписки:
+                                    strong= CountOfFollowingForReqUser
+            include popupWindows/showListOfUsers
+            // Photos
+            .photos-wrapper
+                - var emptyContentImagesMessage = "Вы пока не добавляли картинки.";
+                if (UserImages.length == 0)
+                    .row.image-row-vertical-offset
+                        h1.text-center= emptyContentImagesMessage
+                -var limitImagesInRow = 3;
+                -var currentIndexOfImagePath = 0
+                //- К числу строк прибавляем + 1, чтобы случайно не урезать количество фотографий
+                //- Если фотографий 7, к примеру, то нужно 3 строки для их отображения(2 заполнены полностью, 1 - частично)
+                -var countOfRows = UserImages.length / limitImagesInRow + 1;
+                -for (var row = 0;row<countOfRows;row++)
+                    .row.image-row-vertical-offset
+                        -for (var col = 0;col<limitImagesInRow;col++)
+                            -if (currentIndexOfImagePath<UserImages.length)
+                                .col-lg-4.col-md-4
+                                    img.imageProfileGallery.img-rounded.center-block(
+                                                                  width='292',
+                                                                  height='292',
+                                                                  src= UserImages[currentIndexOfImagePath].path,
+                                                                  alt='Image',
+                                                                  data-toggle="modal",
+                                                                  data-target="#showImageWindow",
+                                                                  data-imagepath= UserImages[currentIndexOfImagePath].path)
+                                    - currentIndexOfImagePath++
+                include popupWindows/showImage
+//- Own scripts
+script(type="text/javascript",src='/javascripts/animationsForProfileGalleryOfImages.js')
+script(type="text/javascript",src='/javascripts/ajax/generalAction.js')

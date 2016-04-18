@@ -1,0 +1,30 @@
+include topNavbar
+.container
+    if (ImagesForBandOfPosts.length==0)
+        .row
+            h1.text-center Контент пуст
+    - for (var i in ImagesForBandOfPosts)
+        -for (var userIndex in InfoAboutUsers)
+            if (InfoAboutUsers[userIndex].username === ImagesForBandOfPosts[i].username)
+                .row
+                    .col-md-8.col-md-offset-2
+                        .list-group
+                            .list-group-item
+                                a(href=InfoAboutUsers[userIndex].username)
+                                    img.img-circle(width='32', height='32', src=InfoAboutUsers[userIndex].pathToAvatar, alt='avatar')
+                                    strong.text-info=InfoAboutUsers[userIndex].username
+                            .list-group-item
+                                img.img-responsive.center-block(width='650', height='650', src=ImagesForBandOfPosts[i].path, alt='photo')
+                            .list-group-item
+                                p
+                                    strong 10000 likes (In developing)
+                                p
+                                    strong= InfoAboutUsers[userIndex].username
+                                    |  Some text (In developing)
+                            .list-group-item
+                                .input-group.input-group-lg
+                                    span.input-group-addon
+                                        span.glyphicon.glyphicon-heart.text-left
+                                    input.form-control(type='text', placeholder='Add comments (In developing)', aria-label='')
+                                    span.input-group-addon
+                                        span.glyphicon.glyphicon-option-horizontal

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/models/models.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/public/javascripts/ajax/generalAction.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/routes/index.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/routes/profile.js" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/views/error.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/views/home.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/views/layout.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/views/popupWindows/showImage.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/views/popupWindows/showListOfUsers.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/views/popupWindows/uploadImage.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/views/profile.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/views/start.jade" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/views/topNavbar.jade" charset="UTF-8" />
+  </component>
+</project>

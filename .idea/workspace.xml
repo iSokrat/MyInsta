@@ -5,13 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="32961036-c208-41ba-92e8-c0411858b07f" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/start.jade" afterPath="$PROJECT_DIR$/views/start.jade" />
+    </list>
+    <list id="2fbac3e6-91e5-4c03-b1bc-3c6bbae56ea4" name="Failed commit: Default" comment="Version 1.0">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/dist/.keep" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/dist/.keep" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/dist/.keep" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/test_boot/data/WiredTiger.wt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/test_boot/data/WiredTigerLAS.wt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/test_boot/data/_mdb_catalog.wt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/default/avatar.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/test_boot/data/collection-0-757073248613337118.wt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/images/error.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.eot" />
@@ -22,7 +24,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff2" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/dist/fonts/glyphicons-halflings-regular.woff" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/fonts/glyphicons-halflings-regular.woff" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/default/imageForStartPage.png" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/test_boot/data/index-1-757073248613337118.wt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/test_boot/data/diagnostic.data/metrics.2015-10-07T14-44-37Z-00000" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/test_boot/data/diagnostic.data/metrics.2015-10-07T14-45-15Z-00000" />
@@ -641,14 +642,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/sqlite-shell-osx-x86-3090100.zip" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/sqlite3" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/test_boot/data/storage.bson" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/avatars/ura_ostrouh_1460485444630.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/photos/ura_ostrouh_1460640498755.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/photos/ura_ostrouh_1460640649669.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/avatars/vano_1460485560392.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/photos/vano_1460640825659.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/images/verbalLogo.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/avatars/vlad_1460991980309.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/uploads/photos/vlad_1460991995215.jpeg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/es6-promise/lib/es6-promise/-internal.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/node_modules/nan/doc/.build.sh" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/uglify-js/node_modules/yargs/node_modules/cliui/.coveralls.yml" />
@@ -1477,7 +1470,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/node_modules/source-map/node_modules/amdefine/amdefine.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/node_modules/amdefine/amdefine.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/effects/animatedSelector.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/animationsForProfileGalleryOfImages.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mquery/node_modules/bluebird/js/main/any.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/apm.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/examples/express/connection-sharing/app.js" />
@@ -1949,7 +1941,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-fonts/lib/font-pack-configurator.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-fonts/test/font-responder-test.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-fonts/lib/font-responder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/fonts/opensans-regular/fonts.css" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-fonts/test/sample-config/fonts.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-fonts/node_modules/node-font-face-generator/test/sample-config/fonts.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-fonts/node_modules/node-font-face-generator/templates/fonts_css.ejs" />
@@ -1969,7 +1960,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/gb18030-ranges.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/iconv-lite/encodings/tables/gbk-added.json" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/raw-body/node_modules/iconv-lite/encodings/tables/gbk-added.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/ajax/generalAction.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/bin/generate-identifier-regex.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/bin/generate-identifier-regex.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/bin/generate-identifier-regex.js" />
@@ -3150,7 +3140,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/bin/prepublish.sh" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/print.less" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/connect-fonts/script/process_directory.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/profileAction.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/mixins/progress-bar.less" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/bootstrap/less/progress-bars.less" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/lib/browser/progress.js" />
@@ -3367,10 +3356,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/should/should.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/should/lib/should.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/css/showHide.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/popupWindows/showImage.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/showImageWindow.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/popupWindows/showListOfUsers.jade" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/javascripts/showUploadImageWindow.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jquery/src/traversing/var/siblings.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/node_modules/minimatch/node_modules/sigmund/sigmund.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/selectors/simple.js" />
@@ -3412,8 +3397,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/clean-css/lib/utils/split.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/kerberos/lib/sspi.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/node_modules/mongodb-core/lib/auth/sspi.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/css/start.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/start.jade" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/test/stat.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/state.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/src/loose/state.js" />
@@ -3510,7 +3493,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/transformers/node_modules/uglify-js/node_modules/source-map/test/source-map/test-util.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/multer/node_modules/busboy/test/test-utils-decoder.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/multer/node_modules/busboy/test/test-utils-parse-params.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/test.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/jade/test.jade" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/node_modules/http-errors/node_modules/inherits/test.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/chai/lib/chai/utils/test.js" />
@@ -3609,7 +3591,6 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/constantinople/node_modules/acorn/bin/update_authors.sh" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn-globals/node_modules/acorn/bin/update_authors.sh" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/jade/node_modules/with/node_modules/acorn/bin/update_authors.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/popupWindows/uploadImage.jade" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mongoose/node_modules/mongodb/lib/url_parser.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/multer/node_modules/busboy/lib/types/urlencoded.js" />
@@ -3711,10 +3692,10 @@
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/node_modules/mocha/node_modules/glob/test/zz-cleanup.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
-    <list id="2fbac3e6-91e5-4c03-b1bc-3c6bbae56ea4" name="Failed commit: Default" comment="Version 1.0" />
     <ignored path="MyInsta.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -3753,11 +3734,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.jade" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.jade" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/home.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.63129973">
+            <state vertical-scroll-proportion="0.0">
               <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start.jade" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/start.jade">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.66295266">
+              <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -3814,7 +3805,9 @@
         <option value="Ura" />
       </list>
     </option>
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="FORCE_PUSH_ALLOWED" value="true" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -3840,7 +3833,6 @@
         <option value="$PROJECT_DIR$/views/index.jade" />
         <option value="$PROJECT_DIR$/start.html" />
         <option value="$PROJECT_DIR$/views/layout.jade" />
-        <option value="$PROJECT_DIR$/views/start.jade" />
         <option value="$PROJECT_DIR$/public/css/start.css" />
         <option value="$PROJECT_DIR$/views/login.jade" />
         <option value="$PROJECT_DIR$/views/register.jade" />
@@ -3857,6 +3849,7 @@
         <option value="$PROJECT_DIR$/views/home.jade" />
         <option value="$PROJECT_DIR$/views/popupWindows/uploadImage.jade" />
         <option value="$PROJECT_DIR$/views/popupWindows/showImage.jade" />
+        <option value="$PROJECT_DIR$/views/start.jade" />
       </list>
     </option>
   </component>
@@ -3868,10 +3861,10 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="726" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -3925,7 +3918,75 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyInsta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyInsta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="uploads" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyInsta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyInsta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyInsta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyInsta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyInsta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyInsta" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="socialNetworksLogo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -4030,13 +4091,20 @@
       <option name="number" value="Default" />
       <updated>1459654584703</updated>
     </task>
+    <task id="LOCAL-00001" summary="Version 1.0">
+      <created>1460997878769</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1460997878769</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="1" y="1" width="1364" height="726" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25892857" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26244345" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3382353" sideWeight="0.59300596" order="7" side_tool="true" content_ui="tabs" />
@@ -4044,7 +4112,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3382353" sideWeight="0.40699404" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34848484" sideWeight="0.40699404" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39869282" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -4323,14 +4391,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/start.jade">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.148148">
-          <caret line="5" column="51" selection-start-line="5" selection-start-column="51" selection-end-line="5" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/login.jade">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.7777777">
@@ -4509,8 +4569,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/home.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.63129973">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="53" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/start.jade">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66295266">
+          <caret line="14" column="61" selection-start-line="14" selection-start-column="61" selection-end-line="14" selection-end-column="61" />
           <folding />
         </state>
       </provider>

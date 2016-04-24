@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-    //Обработка наведения мыши на изображение
+    //СњР±СЂР°Р±РѕС‚РєР° РЅР°РІРµРґРµРЅРёВ¤ РјС‹С€Рё РЅР° РёР·РѕР±СЂР°Р¶РµРЅРёРµ
     $(".imageProfileGallery").hover(function () {
 
         $(this).stop().animate({opacity:0.5}, 400);
